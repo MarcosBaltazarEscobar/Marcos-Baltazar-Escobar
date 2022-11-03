@@ -9,23 +9,27 @@
     <meta name="author" content="Marcos Baltazar Escobar">
     <meta name="descriptions" content="Soy un desarrollador web front-end, creciendo y adquiriendo conocimiento constantemente">
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- NORMALICE -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/Normalize.css">
     <!-- PORFOLIO CSS -->
     <link rel="stylesheet" href="css/portfolio.css">
     <title>Marcos Baltazar Escobar</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="container">
+        <nav class="row">
             <!-- colocar la imagen de mi marca  -->
-            <img src="assets/marcesco.jpg" alt="Marcos Baltazar Escobar">
-            <ul>
-                <li>Proyects</li>
-                <li>About me</li>
-                <li>Contact</li>
-            </ul>
+            <div class="col-sm-6">
+                <img src="assets/marcesco.jpg" class="" alt="Marcos Baltazar Escobar">
+            </div>
+            <div class="col-sm-6">
+                <ul class="">
+                    <li>Proyects</li>
+                    <li>About me</li>
+                    <li>Contact</li>
+                </ul> 
+            </div>
         </nav>
     </header>
     <main>
@@ -72,10 +76,13 @@
                 <img src="assets/github-svgrepo-com.svg" alt="Github de Marcos Baltazar Escobar" width="50px">
             </a>
             <a href="https://www.linkedin.com/in/marcos-baltazar-escobar/">
-                <img src="assets/linkedin-logo-svgrepo-com.svg" alt="Linkedin de Marcos Baltazar Escobas" width="45px"> 
+                <img src="assets/linkedin-logo-svgrepo-com.svg" alt="Linkedin de Marcos Baltazar Escobas" width="45px">
             </a>
             <h4>Marcos Baltazar Escobar</h4>
         </div>
     </footer>
+    <!-- Scrip bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
 </body>
 </html>
